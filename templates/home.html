@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home | Agro AI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-white">
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Welcome, {{ user }} 👋</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4"><a class="btn btn-outline-success w-100" href="/crop">🌾 Crop Recommendation</a></div>
+      <div class="col-md-4"><a class="btn btn-outline-primary w-100" href="/weather">🌤 Weather Forecast</a></div>
+      <div class="col-md-4"><a class="btn btn-outline-warning w-100" href="/market">💰 Market Prices</a></div>
+      <div class="col-md-4"><a class="btn btn-outline-danger w-100" href="/disease">🦠 Disease Predictor</a></div>
+      <div class="col-md-4"><a class="btn btn-outline-dark w-100" href="/scanner">🍃 Leaf Scanner</a></div>
+    </div>
+    <div class="text-center mt-5">
+      <a href="/logout" class="btn btn-secondary">Logout</a>
+    </div>
+  </div>
+</body>
+</html>
